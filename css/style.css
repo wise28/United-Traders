@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans");
+@font-face {
+  font-family: 'PT Sans', sans-serif; }
+
+@font-face {
+  font-family: 'Open Sans', sans-serif; }
+
+.header-full-size {
+  background: url("../img/main-bg.jpg") center no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  .header-full-size .header {
+    padding-top: 1.5rem;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header-full-size .header img {
+      padding-top: 0.625rem; }
+    .header-full-size .header .header__menu {
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      font-size: 1rem;
+      font-family: "PT Sans";
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background-color: transparent; }
+      @media screen and (min-width: 40em) {
+        .header-full-size .header .header__menu {
+          -webkit-justify-content: space-around;
+              -ms-flex-pack: distribute;
+                  justify-content: space-around; } }
+      .header-full-size .header .header__menu .header__menu-item {
+        color: white;
+        position: relative;
+        background: none; }
+      .header-full-size .header .header__menu .header__menu-item-active:after {
+        content: url("../img/Vector.png") !important;
+        position: absolute;
+        top: 14px;
+        right: 17px !important;
+        border: none !important; }
+    .header-full-size .header .top-bar {
+      background-color: transparent; }
+    .header-full-size .header .header__button-login, .header-full-size .header .header__button-buy-now {
+      color: white;
+      font-size: 1rem;
+      font-family: "PT Sans";
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center; }
+    .header-full-size .header .header__title {
+      text-align: center;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 300;
+      line-height: 3.625rem;
+      font-size: 3rem;
+      color: #FFFFFF;
+      margin: 0 auto;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem; }
+      @media screen and (min-width: 40em) {
+        .header-full-size .header .header__title {
+          padding-top: 5.875rem;
+          padding-bottom: 5.25rem; } }
+    .header-full-size .header .header__text {
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 1.125rem;
+      color: #FFFFFF;
+      font-family: "PT Sans";
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 6.1875rem; }
+
+.about-us .about-us__title {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 1.125rem;
+  text-align: center; }
+
+.about-us .about-us__blocks .about-us__blocks-item {
+  background-color: #FAFAFA;
+  padding: 2.5rem 2.1875rem 1.875rem 2.1875rem; }
+  .about-us .about-us__blocks .about-us__blocks-item .about-us__blocks-item-picture {
+    text-align: center;
+    padding-bottom: 1.5625rem;
+    height: 6.0625rem; }
+  .about-us .about-us__blocks .about-us__blocks-item .about-us__blocks-item-title {
+    text-align: center;
+    padding-bottom: 0.6875rem;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.125rem; }
+    @media screen and (min-width: 40em) and (max-width: 63.99875em) {
+      .about-us .about-us__blocks .about-us__blocks-item .about-us__blocks-item-title {
+        height: 3.625rem; } }
+  .about-us .about-us__blocks .about-us__blocks-item .about-us__blocks-item-text {
+    padding-bottom: 2.3125rem;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 0.875rem;
+    height: 6.8125rem; }
+    @media screen and (min-width: 40em) and (max-width: 63.99875em) {
+      .about-us .about-us__blocks .about-us__blocks-item .about-us__blocks-item-text {
+        height: 8.75rem; } }
+  .about-us .about-us__blocks .about-us__blocks-item .about-us__blocks-item-link-more {
+    text-align: center;
+    display: block; }
+
+.our-products .our-products__title {
+  padding-top: 5rem;
+  padding-bottom: 1.875rem;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 1.125rem;
+  text-align: center; }
+
+.our-products .our-products__text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1rem;
+  padding-bottom: 2.3125rem; }
+
+.our-products__item {
+  text-align: center;
+  padding: 0 3.625rem; }
+  .our-products__item .our-products__item-picture {
+    height: 4rem; }
+  .our-products__item .our-products__item-title {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.125rem;
+    padding-top: 1.5625rem; }
+  .our-products__item .our-products__item-text {
+    height: 4.5625rem;
+    padding-top: 0.6875rem;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 0.875rem; }
+    .our-products__item .our-products__item-text a {
+      text-decoration: underline; }
+
+.our-products__button-view-all {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2.1875rem;
+  padding-bottom: 5rem; }
+  .our-products__button-view-all .our-products__button-view-all-link {
+    color: #000;
+    padding: 1.125rem 3.125rem 1.1875rem 3.1875rem;
+    border: 1px solid #85B657;
+    -webkit-border-radius: 4px;
+            border-radius: 4px; }
+  .our-products__button-view-all .our-products__button-view-all-link:hover, .our-products__button-view-all .our-products__button-view-all-link:focus {
+    font-weight: bold; }
+
+.our-partners .our-partners__title {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 1.125rem;
+  padding-bottom: 1.875rem;
+  text-align: center; }
+
+.our-partners .our-partners__text .our-partners__text-parag {
+  padding-bottom: 1.25rem;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1rem; }
+
+.our-partners .our-partners-block {
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1.25rem;
+  padding-bottom: 7.3125rem; }
+  .our-partners .our-partners-block .our-partners-block__item {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .our-partners .our-partners-block .our-partners-block__item a {
+      padding: 0 20px; }
+
+.full-size-footer {
+  background: #19263F;
+  padding-top: 2.5rem; }
+  .full-size-footer .footer__menu {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .full-size-footer .footer__menu .footer__menu-item {
+      text-align: center;
+      font-family: "PT Sans";
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 1rem;
+      text-transform: uppercase; }
+      .full-size-footer .footer__menu .footer__menu-item a {
+        color: white; }
+  .full-size-footer .social-icons-footer {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 1.625rem;
+    padding-bottom: 1.8125rem; }
+    .full-size-footer .social-icons-footer .social-icons-footer__item {
+      text-align: center; }
+      .full-size-footer .social-icons-footer .social-icons-footer__item i {
+        color: white;
+        font-size: 1.5rem; }
+      .full-size-footer .social-icons-footer .social-icons-footer__item a {
+        background: rgba(255, 255, 255, 0.3);
+        padding: 1rem 1rem 0.625rem 1rem;
+        -webkit-border-radius: 1.5625rem;
+                border-radius: 1.5625rem; }
+    .full-size-footer .social-icons-footer .icons-twitter-instagram {
+      padding: 1rem 0.6875rem 0.625rem 0.6875rem !important; }
+  .full-size-footer .footer__copyright {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 0.9375rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 2.5rem; }
